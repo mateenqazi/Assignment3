@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Calculator"
+            android:icon="@drawable/calculator"
+            android:id="@+id/calculator"
+            />
+        <item
+            android:title="MCQs builder"
+            android:icon="@drawable/mcqs"
+            android:id="@+id/mcqs"
+            />
+
+
+    </group>
+</menu>
