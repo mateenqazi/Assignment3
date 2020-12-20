@@ -9,14 +9,22 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import com.google.android.material.navigation.NavigationView;
+
+
 public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle toggle;
     Toolbar toolbar;
     NavigationView navigationView;
+
+
+    private  static final String tagName1 = "tag";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,22 +39,20 @@ public class MainActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                int id=menuItem.getItemId();
-                Fragment fragment=null;
-                switch (id)
-                {
+                int id = menuItem.getItemId();
+                Fragment fragment = null;
+                switch (id) {
+                    case R.id.calculator:
+                        Log.d(tagName1,"here");
+                        Intent i = new Intent(MainActivity.this, MainActivityAss1.class);
+                        startActivity(i);
+                        break;
                     default:
                         return true;
                 }
-
+                return true;
             }
         });
     }
-    private void loadFragment(Fragment fragment) {
-        FragmentManager fragmentManager=getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.frame,fragment).commit();
-        drawerLayout.closeDrawer(GravityCompat.START);
-        fragmentTransaction.addToBackStack(null);
-    }
+
 }
