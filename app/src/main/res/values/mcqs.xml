@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mcq0">
+        <item>who is founder of pakistan?</item>
+        <item>Muhammad Ali Jinnah</item>
+        <item>Zafar Ali khan</item>
+        <item>Sher Ali </item>
+        <item>Allama Iqbal</item>
+    </string-array>
+    <string-array name="mcq1">
+        <item>How many rivers in Punjab?</item>
+        <item>5</item>
+        <item>7</item>
+        <item>11</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="mcq2">
+        <item>The Second largest city of Pakistan is</item>
+        <item>Lahore</item>
+        <item>Karachi</item>
+        <item>Multan</item>
+        <item>Faisalabad</item>
+    </string-array>
+    <string-array name="mcq3">
+        <item>Total alphabet in ABC?</item>
+        <item>26</item>
+        <item>30</item>
+        <item>34</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="mcq4">
+        <item>Prophet Muhammad (PBUH) lived in Madina for __________ years?</item>
+        <item>10</item>
+        <item>9</item>
+        <item>7</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="mcq5">
+        <item>How many verses are in Holy Quran?</item>
+        <item>6666</item>
+        <item>6600</item>
+        <item>6000</item>
+        <item>3001</item>
+    </string-array>
+    <string-array name="mcq6">
+        <item>How many Rukus are there in Surah Al-Baqarah?</item>
+        <item>40</item>
+        <item>55</item>
+        <item>38</item>
+        <item>51</item>
+    </string-array>
+    <string-array name="mcq7">
+        <item>Gwadar Port is constructed in the province of?</item>
+        <item>Balochistan</item>
+        <item>Sindh</item>
+        <item>kpk</item>
+        <item>Punjab</item>
+    </string-array>
+    <string-array name="mcq8">
+        <item>Which month of Islamic Calender is Ramadan</item>
+        <item>8</item>
+        <item>11</item>
+        <item>7</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="mcq9">
+        <item>_______ Muslims fought in the battle of Ghazwa-e-Badr ?</item>
+        <item>313</item>
+        <item>999</item>
+        <item>333</item>
+        <item>14</item>
+    </string-array>
+</resources>

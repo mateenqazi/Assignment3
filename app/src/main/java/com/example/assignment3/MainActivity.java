@@ -43,10 +43,15 @@ public class MainActivity extends AppCompatActivity {
                 Fragment fragment = null;
                 switch (id) {
                     case R.id.calculator:
-                        Log.d(tagName1,"here");
+
                         Intent i = new Intent(MainActivity.this, MainActivityAss1.class);
                         startActivity(i);
                         break;
+                    case R.id.mcqs:
+                        Intent i1 = new Intent(MainActivity.this, MainActivityAss2_page1.class);
+                        startActivity(i1);
+                        break;
+
                     default:
                         return true;
                 }
